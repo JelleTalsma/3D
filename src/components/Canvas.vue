@@ -38,7 +38,7 @@
                     // Create a built-in "ground" shape; its constructor takes 6 params : name, width, height, subdivision, scene, updatable
                     // var ground = BABYLON.Mesh.CreateGround('ground1', 6, 6, 2, scene, false);
                     // Return the created scene
-                    var chargingStation = BABYLON.SceneLoader.ImportMesh("", "./", "laadpaal.glb", scene);
+                    var chargingStation = BABYLON.SceneLoader.ImportMesh("", "./", "powerpack.glb", scene);
                     chargingStation.color = BABYLON.Color3.Black();
                     return scene;
                 }
